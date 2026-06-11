@@ -44,6 +44,10 @@
 // //check if output is a object
 // console.log(`bookToJSON type is a...${typeof bookToObject}`);
 
-//Task 3
-let mixedStr = "Hello 123, this is JS Essentials 2!";
-console.log(`String variable is ${mixedStr}`);
+//Task 3a
+ let mixedStr = "Hello 123, this is JS Essentials 2!";
+// console.log(`String variable is ${mixedStr}`);
+
+//Task 3b
+let regExp = new RegExp("/\d+", "g");
+console.log(`${regExp}`);
