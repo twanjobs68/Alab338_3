@@ -30,4 +30,16 @@ let book ={
     year: 2021
 }
 
-console.log(`Book object: ${book}`);
+// console.log(`Book object: ${book}`);
+
+//Task 2b
+let bookToJson = JSON.stringify(book);
+console.log(`JSON conversion of book is: ${bookToJson}`);
+
+//Task2c
+let bookToObject = JSON.parse(bookToJson);
+console.log(`JSON to object of book is: ${bookToObject.title}`);
+
+//Task 2d
+//check if output is a string
+console.log(`bookToJSON type is a...${typeof bookToObject}`);
