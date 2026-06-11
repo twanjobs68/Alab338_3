@@ -6,8 +6,28 @@
 // let radius = 5;
 // let area = Math.PI * Math.pow(radius, 2);
 
-console.log(area);
-let radius = 5;
-let area = Math.PI * (radius ** 2);
+// console.log(area);
 
-console.log(area.toFixed(2));
+//1b2
+// let radius = 5;
+// let area = Math.PI * (radius ** 2);
+
+// console.log("Circle area is: ",area.toFixed(2));
+
+//Task 1c 
+
+// let maxNumber = Math.max(10,47,33,5);
+// console.log("Max Number is: ",  maxNumber);
+
+// let minNumber = Math.min(10,47,33,5);
+// console.log(`Minimum number is: ${minNumber}`);
+
+//Task 2a
+
+let book ={
+    title: "JavaScript Guide",
+    author: "Coder",
+    year: 2021
+}
+
+console.log(`Book object: ${book}`);
