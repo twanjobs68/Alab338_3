@@ -24,22 +24,26 @@
 
 //Task 2a
 
-let book ={
-    title: "JavaScript Guide",
-    author: "Coder",
-    year: 2021
-}
+// let book ={
+//     title: "JavaScript Guide",
+//     author: "Coder",
+//     year: 2021
+// }
 
-// console.log(`Book object: ${book}`);
+// // console.log(`Book object: ${book}`);
 
-//Task 2b
-let bookToJson = JSON.stringify(book);
-console.log(`JSON conversion of book is: ${bookToJson}`);
+// //Task 2b
+// let bookToJson = JSON.stringify(book);
+// console.log(`JSON conversion of book is: ${bookToJson}`);
 
-//Task2c
-let bookToObject = JSON.parse(bookToJson);
-console.log(`JSON to object of book is: ${bookToObject.title}`);
+// //Task2c
+// let bookToObject = JSON.parse(bookToJson);
+// console.log(`JSON to object of book is: ${bookToObject.title}`);
 
-//Task 2d
-//check if output is a string
-console.log(`bookToJSON type is a...${typeof bookToObject}`);
+// //Task 2d
+// //check if output is a object
+// console.log(`bookToJSON type is a...${typeof bookToObject}`);
+
+//Task 3
+let mixedStr = "Hello 123, this is JS Essentials 2!";
+console.log(`String variable is ${mixedStr}`);
